@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Przykład 34 - Praktyczny projekt - Antybluzgacz cz. 1</title>
+
+    <style>
+
+        form {
+            width: 300px;
+            margin: 40px auto;
+        }
+
+        .inputField {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .inputField input,
+        .inputField textarea {
+            box-sizing: border-box;
+            width: 300px;
+            height: 40px;
+            padding: 0 20px;
+            border: 1px #C4C4C4 solid;
+            border-radius: 10px;
+
+            font: 13px/1 Arial, Tahoma, sans-serif;
+            color: #6E6E6E;
+        }
+
+        .inputField textarea {
+            height: 180px;
+            padding: 20px;
+
+            line-height: 20px;
+        }
+
+        .inputField button {
+            float: right;
+
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Przykład 34 - Praktyczny projekt - Antybluzgacz cz. 1</h1>
+
+    <form id="form" action="#">
+
+        <div class="inputField">
+            <textarea name="your-message" placeholder="Twoja wiadomość"></textarea>
+        </div>
+
+        <div class="inputField">
+            <button type="submit">Wyślij</button>
+        </div>
+    </form>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
